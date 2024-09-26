@@ -6,6 +6,6 @@ This repository contains the code related to the analysis performed on gastruloi
 - **Preprocessing and aligment**: this folder contains the code and steps followed to get from the raw `fastq` files into the bulk count data.
 - **Analysis**: this folder contains the scripts for the downstream analysis of the counts data.
 
-  > *Note*: both parts are independent of each other.If interested in the analysis alone without realigning the data, you can start there directly downloading the preprocessed coundata.
+  > *Note*: both parts are independent of each other. If not interested on realigning the data, you can start by directly downloading the preprocessed coundata.
 
 ## 0. Installation and download data
