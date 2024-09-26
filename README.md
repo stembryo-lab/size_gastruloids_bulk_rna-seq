@@ -1,11 +1,11 @@
 # Size Gastruloid Project
-Complete bulk RNA-Seq workflow from raw fastq to downstream analysis.
+Complete bulk RNA-Seq workflow from raw fastq to downstream analysis of the [Paper](link).
 ## Description
-This repository contains an analysis on different types of gastruloid sequencing data regarding initial cell number and timepoint.
+This repository contains the code related to the analysis performed on gastruloid sequencing data.
 
-**Conditions**:
-- 48h: 20 cells, 300 cells
-- 72h: 20 cells, 300 cells
-- 120h: 20 cells, 75 cells, 150 cells, 300 cells
+- **Preprocessing and aligment**: this folder contains the code and steps followed to get from the raw `fastq` files into the bulk count data.
+- **Analysis**: this folder contains the scripts for the downstream analysis of the counts data.
+
+  > *Note*: both parts are independent of each other.If interested in the analysis alone without realigning the data, you can start there directly downloading the preprocessed coundata.
 
 ## 0. Installation and download data
