@@ -10,7 +10,7 @@ DOCKER_IMAGE="rnaseq"
 # Check if Docker image exists; if not, build it
 if [[ "$(docker images -q ${DOCKER_IMAGE} 2> /dev/null)" == "" ]]; then
   echo "Docker image ${DOCKER_IMAGE} not found. Building the image..."
-  docker build -t ${DOCKER_IMAGE} ..  || { echo "Docker build failed. Exiting..."; exit 1; }
+  docker build -t ${DOCKER_IMAGE} ../..  || { echo "Docker build failed. Exiting..."; exit 1; }
 fi
 
 # Step 1: Run FastQC and trimming
