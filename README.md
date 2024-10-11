@@ -1,9 +1,8 @@
 # Size Gastruloid Project
-Complete bulk RNA-Seq workflow from raw fastq to downstream analysis of the [Paper](link).
+Scripts that contain the analysis and plots in the publication [Paper](link).
 ## Description
-This repository contains the code related to the analysis performed on gastruloid sequencing data.
+This repository is divided into the bulk RNA-Seq pipeline and markers UMAPs visualization.
 
-- **Preprocessing and aligment**: this folder contains the code and steps followed to get from the raw `fastq` files into the bulk count data.
-- **Analysis**: this folder contains the scripts for the downstream analysis of the counts data.
+- **Bulk RNA-Seq**: this folder contains the pipeline for the preprocessing, alignment and downstream analysis for the sequencing data. 
+- **Markers UMAPs**: this folder contains the scripts for the analysis and visualization of gene markers UMAPs of scRNA-Seq gastruloid and embryo data from literature.
 
-> **Note**: if not interested on realigning the data, you can start by directly downloading the processed countdata.
