@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/15351573.svg)](https://zenodo.org/badge/latestdoi/15351573)
+
 # Size Gastruloid Project
 Scripts that contain the analysis and plots in the publication [Paper](link).
 ## Description
