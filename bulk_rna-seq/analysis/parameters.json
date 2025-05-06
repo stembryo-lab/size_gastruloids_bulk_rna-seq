@@ -1,0 +1,5 @@
+{
+    "MIN_COUNT_GENE":5,
+    "PADJ_THRES":0.1,
+    "LFC_THRES":1
+}

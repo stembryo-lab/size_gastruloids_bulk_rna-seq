@@ -1,0 +1,4 @@
+markers_umaps/data
+markers_umaps/results
+__pycache__/
+*.zip
