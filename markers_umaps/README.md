@@ -9,7 +9,21 @@ To download and store datasets, run:
 
 `./download_datasets.sh`
 
-## 1. Analysis
-Run `analysis_markers_umaps.ipynb` notebook to preprocess, analyze and generate UMAPs for markers in *markers.txt*.
+## 1. Setup environemnt
 
-*Set:`dataset='gastruloid'` or `dataset='mouse'` to select which dataset to perform the analysis.*
+We advise to ue conda to create a separate environemtn with all the required packages to reproduce the results.
+You can setup the environment as:
+
+```bash
+conda env create -n NAME_OF_ENVIRONMENT -f environment.yml
+```
+
+and activate it using 
+
+```
+conda activate NAME_OF_ENVIRONMENT
+```
+
+## 2. Analysis
+
+Run `analysis_markers_umaps_ANALYSIS.ipynb` notebook to preprocess, analyze and generate UMAPs for markers in *markers.txt*.
