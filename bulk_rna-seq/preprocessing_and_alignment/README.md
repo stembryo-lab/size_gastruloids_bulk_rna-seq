@@ -16,16 +16,5 @@ This repository contains a simple, reproducible pipeline to process bulk RNA-seq
 
 3. **Alignment (mapping)**  
    `mapping.sh` aligns trimmed reads to a reference genome using a splice-aware aligner such as [STAR](https://github.com/alexdobin/STAR) or [HISAT2](https://daehwankimlab.github.io/hisat2/).  
-   - Produces sorted BAM files.  
-   - Generates alignment statistics (e.g. `samtools flagstat`).
-
-4. **Pipeline orchestration**  
-   `run_pipeline.sh` coordinates the above steps for multiple samples in batch.  
-   - Accepts sample metadata / config file.  
-   - Submits jobs to a cluster (if applicable) or runs locally.
-
----
-
-## Repository Structure
-
+   - Produces raw countdata (
 
