@@ -19,5 +19,6 @@ This repository contains a simple, reproducible pipeline to process bulk RNA-seq
    - Produces raw countdata per sample (ReadsPerGene.out.tab)
   
 4. **Concatenate countdata**
+   
    `create_countdata.py` concatenates counts from each aligned sample and creates a merged count matrix to be used in the downstream analysis part.
 
