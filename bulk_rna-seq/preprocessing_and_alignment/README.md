@@ -16,5 +16,8 @@ This repository contains a simple, reproducible pipeline to process bulk RNA-seq
 
 3. **Alignment (mapping)**  
    `mapping.sh` aligns trimmed reads to a reference genome using a splice-aware aligner such as [STAR](https://github.com/alexdobin/STAR) or [HISAT2](https://daehwankimlab.github.io/hisat2/).  
-   - Produces raw countdata (
+   - Produces raw countdata per sample (ReadsPerGene.out.tab)
+  
+4. **Concatenate countdata**
+   `create_countdata.py` concatenates counts from each aligned sample and creates a merged count matrix to be used in the downstream analysis part.
 
