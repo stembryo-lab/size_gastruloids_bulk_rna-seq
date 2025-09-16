@@ -1,5 +1,5 @@
 # Size Gastruloid Bulk RNA-Seq
-Complete bulk RNA-Seq workflow from raw fastq to downstream analysis of the [Paper]((https://pubmed.ncbi.nlm.nih.gov/40848835/)).
+Complete bulk RNA-Seq workflow from raw fastq to downstream analysis of the [Paper]((https://pubmed.ncbi.nlm.nih.gov/40848835/).
 ## Description
 This repository contains the code related to the analysis performed on gastruloid sequencing data.
 
