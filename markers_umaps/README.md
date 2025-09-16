@@ -11,17 +11,17 @@ To download and store datasets, run:
 
 ## 1. Setup environemnt
 
-We advise to ue conda to create a separate environemtn with all the required packages to reproduce the results.
+We advise to use conda to create a separate environment with all the required packages to reproduce the results.
 You can setup the environment as:
 
 ```bash
-conda env create -n NAME_OF_ENVIRONMENT -f environment.yml
+conda env create -n size_rnaseq_env -f environment.yml
 ```
 
 and activate it using 
 
 ```
-conda activate NAME_OF_ENVIRONMENT
+conda activate size_rnaseq_env
 ```
 
 ## 2. Analysis
